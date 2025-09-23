@@ -1,1 +1,18 @@
+/* ตารางเต็มจอ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* เวลาจอเล็กก็แค่ย่อฟอนต์ */
+@media (max-width: 600px) {
+  table {
+    font-size: 12px;
+  }
+}
