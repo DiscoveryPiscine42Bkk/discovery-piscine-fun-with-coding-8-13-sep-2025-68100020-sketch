@@ -1,6 +1,5 @@
-/* ตารางเต็มจอ */
 table {
-  width: 100%;
+  width: 100%;              
   border-collapse: collapse;
 }
 
@@ -10,9 +9,8 @@ th, td {
   text-align: center;
 }
 
-/* เวลาจอเล็กก็แค่ย่อฟอนต์ */
 @media (max-width: 600px) {
   table {
-    font-size: 12px;
+    font-size: 12px;      
   }
 }
